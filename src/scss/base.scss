@@ -1,14 +1,15 @@
+@import "variables";
+
 body {
-	font-family: Verdana, sans-serif;
-	margin: auto;
-	padding: 20px;
-	max-width: 65ch;
+	font-family: "General Sans Variable";
+	margin: 0;
+	padding: 0;
 	text-align: left;
-	background-color: #fff;
+	background-color: $neutral-100;
 	word-wrap: break-word;
 	overflow-wrap: break-word;
 	line-height: 1.5;
-	color: #444;
+	color: $neutral-900;
 }
 h1,
 h2,
@@ -18,10 +19,10 @@ h5,
 h6,
 strong,
 b {
-	color: #222;
+	color: $neutral-900;
 }
 a {
-	color: #3273dc;
+	color: $primary-500;
 }
 content {
 	line-height: 1.6;
@@ -35,7 +36,7 @@ img {
 }
 code {
 	padding: 2px 5px;
-	background-color: #f2f2f2;
+	background-color: $neutral-200;
 }
 pre {
 	padding: 1rem;
@@ -44,8 +45,8 @@ pre > code {
 	all: unset;
 }
 blockquote {
-	border: 1px solid #999;
-	color: #222;
+	border: 1px solid $neutral-300;
+	color: $neutral-900;
 	padding: 2px 0px 2px 20px;
 	margin: 0px;
 	font-style: italic;
